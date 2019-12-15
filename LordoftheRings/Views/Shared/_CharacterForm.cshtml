@@ -1,0 +1,36 @@
+﻿@using LordoftheRings.Models.ViewModels;
+
+@model CharactersVM;
+
+    @Html.ValidationSummary()
+    <div>
+        @Html.LabelFor(x => x.Character.Name)
+        @Html.TextBoxFor(x => x.Character.Name, new { @class = "form-control" })
+        <span asp-validation-for="Character.Name" class="text-danger"></span>
+    </div>
+
+    <div>
+        @Html.LabelFor(x => x.Character.Description)
+        @Html.TextBoxFor(x => x.Character.Description, new { @class = "form-control" })
+    </div>
+
+    <div>
+        <select asp-for="Character.RaceId" asp-items="Model.RaceSelectList" class="form-control"> 
+            <option value="">Select something</option> 
+        </select>
+
+    </div>
+
+
+    <div>
+        @Html.LabelFor(x => x.Character.Gender)
+
+        @Html.DropDownListFor(x => x.Character.Gender, Html.GetEnumSelectList<Gender>(), "Select your cats Gender")
+    </div>
+
+    <div>
+        @Html.LabelFor(x => x.Character.ProfilePicture)
+        @Html.TextBoxFor(x => x.Character.ProfilePicture)
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Cat</button>

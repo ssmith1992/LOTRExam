@@ -1,0 +1,15 @@
+﻿@*Strongly typed view*@
+@using LordoftheRings.Models.ViewModels;
+
+@model CharactersVM;
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+@using (Html.BeginForm()) {
+    @await Html.PartialAsync("_CharacterForm", Model)
+}

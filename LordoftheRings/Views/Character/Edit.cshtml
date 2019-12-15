@@ -1,0 +1,9 @@
+﻿@using LordoftheRings.Models.ViewModels;
+@model CharactersVM;
+
+
+@using (Html.BeginForm()) {
+    @await Html.PartialAsync("_CharacterForm", Model)
+
+    @Html.HiddenFor(x => x.Character.CharacterId)
+}

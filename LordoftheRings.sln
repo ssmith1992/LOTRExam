@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29403.142
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LordoftheRings", "LordoftheRings\LordoftheRings.csproj", "{FC6C6E31-E468-4C79-B8DD-1E039BB54C9F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LordoftheRingsTest", "LordoftheRingsTest\LordoftheRingsTest.csproj", "{192E7FA5-9E63-4EA2-98BE-5CEDE5D5CBDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LordOfTheRingsAPI", "LordOfTheRingsAPI\LordOfTheRingsAPI.csproj", "{6A562290-A398-433D-B967-3C4F69AE2266}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC6C6E31-E468-4C79-B8DD-1E039BB54C9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC6C6E31-E468-4C79-B8DD-1E039BB54C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC6C6E31-E468-4C79-B8DD-1E039BB54C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC6C6E31-E468-4C79-B8DD-1E039BB54C9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{192E7FA5-9E63-4EA2-98BE-5CEDE5D5CBDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{192E7FA5-9E63-4EA2-98BE-5CEDE5D5CBDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{192E7FA5-9E63-4EA2-98BE-5CEDE5D5CBDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{192E7FA5-9E63-4EA2-98BE-5CEDE5D5CBDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A562290-A398-433D-B967-3C4F69AE2266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A562290-A398-433D-B967-3C4F69AE2266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A562290-A398-433D-B967-3C4F69AE2266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A562290-A398-433D-B967-3C4F69AE2266}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DD2562A-2881-42BB-83B2-00963AA326A8}
+	EndGlobalSection
+EndGlobal
